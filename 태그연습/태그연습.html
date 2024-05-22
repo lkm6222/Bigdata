@@ -18,6 +18,12 @@
     .text-red {
         color : red;
     }
+    .bg-purple {
+        background-color: purple;
+    }
+    .bg-yellow {
+        background-color: yellow;
+    }
 
     /* id를 사용할 때는 앞에 #을 붙여준다. */
     /* 중복 안됨. 무조건 하나만 */
@@ -32,7 +38,6 @@
         color : green;
     }
 
-
 </style>
 <body>
     <!-- 사용자에게 보이지 않는 주석 ctrl+/ -->
@@ -40,13 +45,24 @@
     <div>
         나는 div 태그 구역을 나누는 태그
     </div>
+
+    <!-- block / inline -->
+    <!-- block : 가로 사이즈를 100% 차지하는 요소 : div, p, h1~6 -->
+    <!-- inline : 본인 내용만큼만 가로 사이즈 차지 : span -->
+    <p class="bg-purple">123</p>
+    <p class="bg-purple">456</p>
+    
+    <span class="bg-yellow">123</span>
+    <span class="bg-yellow">456</span>
+
     <div>
         나는 block 요소야.
     </div>
+
     <div class="text-blue">
         나는 글씨 파란색 하고싶어.
     </div>
-
+ 
     <!-- p : 글 본문을 작성할 때 많이 사용하는 태그 -->
     <p>paragraph의 약자</p>
     

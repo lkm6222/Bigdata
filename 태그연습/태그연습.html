@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,20 +8,23 @@
 </head>
 <style>
     div {
-        color :aquamarine;
+        color: aquamarine;
     }
 
     /* class는 중복 가능 */
     /* class를 사용할 때는 앞에 .을 붙여준다. */
     .text-blue {
-        color :blue;
+        color: blue;
     }
+
     .text-red {
-        color : red;
+        color: red;
     }
+
     .bg-sky p {
         background-color: skyblue;
     }
+
     .bg-yellow span {
         background-color: yellow;
     }
@@ -32,13 +36,14 @@
 
     #bg-blue {
         background-color: blue;
-        color : #fff;
-    }
-    #text-green {
-        color : green;
+        color: #fff;
     }
 
+    #text-green {
+        color: green;
+    }
 </style>
+
 <body>
     <!-- 사용자에게 보이지 않는 주석 ctrl+/ -->
     <!-- div : 상자처럼 구역을 나누는 태그 -->
@@ -49,7 +54,7 @@
     <!-- block / inline -->
     <!-- block : 가로 사이즈를 100% 차지하는 요소 : div, p, h1~6 -->
     <!-- inline : 본인 내용만큼만 가로 사이즈 차지 : span -->
-    
+
     <div class="bg-sky">
         <p>123</p>
         <p>456</p>
@@ -84,10 +89,10 @@
     <div class="text-blue">
         나는 글씨 파란색 하고싶어.
     </div>
- 
+
     <!-- p : 글 본문을 작성할 때 많이 사용하는 태그 -->
     <p>paragraph의 약자</p>
-    
+
     <p class="text-red" id="text-green">Lorem ipsum dolor sit amet consectetur.</p>
     <p>Lorem ipsum dolor sit amet.</p>
     <p class="text-red">Lorem ipsum dolor sit.</p>
@@ -123,4 +128,5 @@
 
 
 </body>
+
 </html>

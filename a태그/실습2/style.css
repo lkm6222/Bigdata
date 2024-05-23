@@ -1,0 +1,38 @@
+a{
+  color: #000;
+  text-decoration: none;
+}
+body{
+  background-color: #000;
+}
+
+
+.box{
+  width: 400px;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.white{
+  background-color: white;
+  color: #000;
+}
+
+
+.google{
+  padding: 50px;
+}
+
+img{
+  width: 300px;
+}
+
+.text-bold{
+  font-weight: bold;
+}
+
+.text-line{
+  text-decoration: underline;
+}

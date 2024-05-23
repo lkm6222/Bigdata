@@ -25,8 +25,12 @@ a {
 
 .line-blue {
     border: 5px solid blue;
+    width: 100px;
+    margin: 0 auto;
 }
 
 .line-green {
     border: 5px solid green;
+    width: 400px;
+    margin: 50px auto;
 }

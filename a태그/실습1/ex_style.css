@@ -1,0 +1,29 @@
+.box{
+  border-radius: 30px;
+  margin: 20px auto;
+  width: 400px;
+  text-align: center;
+  padding: 20px;
+}
+
+.google{
+  border: 5px solid blue;
+
+}
+
+.naver{
+  border: 5px solid green;
+}
+
+.text-bold{
+  font-weight: 700px;
+}
+
+
+.text-green{
+  color: green;
+}
+
+img{
+  width: 300px;
+}

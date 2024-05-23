@@ -14,6 +14,9 @@ a {
 
 .box {
     height: 1000px;
+    
+    /*  모서리 순서 좌상, 우상, 우하, 좌하 */
+    border-radius: 30px;
 }
 
 .line-red {

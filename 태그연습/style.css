@@ -2,3 +2,15 @@ a {
     text-decoration: none;
     color: #000;
 }
+
+/* a 요소만 적용 */
+.list a {
+    font-size: 20px;
+
+    /* 글씨굵게 -> bold 또는 700입력 */
+    font-weight: bold;
+}
+
+.box {
+    height: 1000px;
+}

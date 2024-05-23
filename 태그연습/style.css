@@ -6,6 +6,7 @@ a {
 /* a 요소만 적용 */
 .list a {
     font-size: 20px;
+    color: blue;
 
     /* 글씨굵게 -> bold 또는 700입력 */
     font-weight: bold;
@@ -13,4 +14,16 @@ a {
 
 .box {
     height: 1000px;
+}
+
+.line-red {
+    border: 5px solid red;
+}
+
+.line-blue {
+    border: 5px solid blue;
+}
+
+.line-green {
+    border: 5px solid green;
 }

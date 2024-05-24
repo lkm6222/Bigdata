@@ -1,0 +1,31 @@
+
+div{
+/*  border: 3px solid black; */
+  width: 500px;
+  margin: 0 auto;
+  
+}
+
+.head{
+  background-color: aquamarine;
+  height: 100px;
+}
+
+.middle{
+  height: 300px;
+  display: flex;
+}
+
+.m-left{
+  width: 200px;
+  background-color: blue;
+}
+
+.m-right{
+  background-color:brown;
+}
+
+.footer{
+  height: 100px;
+  background-color: greenyellow;
+}

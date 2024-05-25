@@ -18,14 +18,14 @@ div{
 
 .m-left{
   width: 200px;
-  background-color: blue;
+  background-color: cornflowerblue;
 }
 
 .m-right{
-  background-color:brown;
+  background-color:coral;
 }
 
 .footer{
   height: 100px;
-  background-color: greenyellow;
+  background-color: lightgreen;
 }

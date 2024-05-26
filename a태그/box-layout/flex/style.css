@@ -13,18 +13,19 @@ div{
 }
 
 .middle{
+  
   display: flex;
   /*justify-content: center;*/
 }
 
-.m-left{
+.left{
   background-color: cornflowerblue;
   width: 150px;
   
   height: 200px;
 }
 
-.m-right{
+.right{
   background-color: coral;
 }
 

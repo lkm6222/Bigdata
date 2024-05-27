@@ -1,41 +1,41 @@
 li{
-  border: 3px solid blue;
-  display: flex;
-  padding: 10px;
   list-style: none;
+  padding: 8px;
+  color: #fff;
 }
-
 .nav{
+  /*border: 3px solid orange;*/
+
+  background-color: gray;
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  background-color: gray;
-  padding: 0 10px;
+  padding: 0 20px;
 }
 
-img{
-  width: 50px;
+.logo img{
+  width: 30px;
 }
 
-.menu{
-  border: 3px solid red;
-
+.menu-list{
   display: flex;
-  color: #fff;
 }
-
 
 .bg-img{
+
+  /*border: 3px solid red;*/
+
   height: 400px;
   background-image: url(./images/back.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  
+  background-position: center;
 }
-
 .title{
-  color: #fff;
-
+  color: white;
+  margin: 0;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-

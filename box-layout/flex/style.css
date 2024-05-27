@@ -1,0 +1,35 @@
+body{
+  margin-top: 30px;
+}
+
+div{
+  width: 500px;
+  margin: 0 auto;
+}
+
+.header{
+  background-color: aquamarine;
+  height: 50px;
+}
+
+.middle{
+  
+  display: flex;
+  /*justify-content: center;*/
+}
+
+.left{
+  background-color: cornflowerblue;
+  width: 150px;
+  
+  height: 200px;
+}
+
+.right{
+  background-color: coral;
+}
+
+.footer{
+  background-color: lightgreen;
+  height: 100px;
+}

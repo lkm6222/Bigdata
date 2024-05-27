@@ -1,0 +1,41 @@
+li{
+  border: 3px solid blue;
+  display: flex;
+  padding: 10px;
+  list-style: none;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: gray;
+  padding: 0 10px;
+}
+
+img{
+  width: 50px;
+}
+
+.menu{
+  border: 3px solid red;
+
+  display: flex;
+  color: #fff;
+}
+
+
+.bg-img{
+  height: 400px;
+  background-image: url(./images/back.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.title{
+  color: #fff;
+
+}
+

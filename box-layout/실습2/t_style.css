@@ -1,0 +1,47 @@
+/*모든태그 기본속성*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+.global-header{
+  background-color: #333;  
+  display: flex;
+  /*수직 가운데 정렬*/
+  align-items: center;
+  /*수평 양 끝 정렬*/
+  justify-content: space-between;
+  padding: 12px 20px;
+}
+
+.logo img{
+  width: 60px;
+}
+
+.gnb-list{
+  display: flex;
+  justify-content: space-between;
+  width: 240px;
+}
+
+.gnb-list li a{
+  color: #fff;
+  font-weight: 700;
+/*  padding: 0 20px; */
+
+}
+
+/* 사용자가 a태그에 마우스 올렸을 때 hover */
+.gnb-list li a:hover{
+  color: dodgerblue;
+  text-decoration: underline;
+}

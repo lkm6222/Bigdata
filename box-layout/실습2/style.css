@@ -32,10 +32,7 @@ li{
   background-position: center;
 }
 .title{
-  color: white;
-  margin: 0;
-  height: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  color: #fff;
+
 }
+

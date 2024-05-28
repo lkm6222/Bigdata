@@ -1,0 +1,37 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  text-align: center;
+}
+
+.global-header, global-footer{
+  background-color: blue;
+  color: #fff;
+  font-size: 36px;
+  padding: 30px 0;
+}
+
+.back-img{
+  height: 500px;
+  background-image: url(./images/park.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-list{
+/*  border: 3px solid red; */
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 40px auto;
+}
+
+.card-list div{
+  width: 30%;
+  height: 200px;
+  border: 1px solid blue;
+}

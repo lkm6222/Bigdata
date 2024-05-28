@@ -45,3 +45,50 @@ a{
   color: dodgerblue;
   text-decoration: underline;
 }
+
+.back-img{
+  height: 600px;
+  background-image: url(./images/back.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.back-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* 방향이 바꼈을 때 수평정렬 */
+  text-align: center;
+  height: 600px;
+  color: #fff;
+}
+
+.back-text p, button{
+  margin-top: 20px;
+}
+
+.back-text p{
+  font-size: 18px;
+}
+
+.back-text button{
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.second-box{
+  width: 500px;
+  /* margin 방향 : top right bottom right  */
+  margin: -66px auto 0 auto;
+  /* 값을 두개 쓸 때 top, bottom/ right, left */
+  padding: 40px 36px;
+  border-radius: 20px;
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+}
+
+.second-box p{
+  margin-top: 24px;
+}

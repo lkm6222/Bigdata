@@ -136,31 +136,22 @@ a{
 }
 
 @media screen and (max-width : 1200px) {
-  .global-header{
-    background-color: #333;  
-    display: flex;
-    align-items: center;
-    padding: 8px 8px;
-  }
-  .global-footer{
-    display: flex;
-    margin-top: 50px;
-    padding: 8px 8px;
-  
-    color: #fff;
-    background-color: #333;
-  }
-  .back-img{
-    height: 600px;
-    background-image: url(/responsive/images/park.png);
-  }
-  .back-text{
-    display: flex;
+  .card-list{
+    width: 70%;
     flex-direction: column;
     justify-content: center;
-    align-items: center; /* 방향이 바꼈을 때 수평정렬 */
-    text-align: center;
-    height: 600px;
-    color: #000
+    margin: 50px auto 0 auto;
+  }
+  
+  .card-list div{
+    width: 100%;
+    margin: 12px 0;
+    box-sizing: border-box;  
+  }
+}
+
+@media screen and (max-width : 768px) {
+  .card-list{
+    width: 90%;
   }
 }

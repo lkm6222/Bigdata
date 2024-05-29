@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.global-header {
+  background-color: skyblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  width: 100%;
+  position: fixed;
+}
+
+.logo img {
+  width: 60px;
+}
+
+.gnb-list {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+}
+
+.gnb-list li a {
+  color: #fff;
+  font-weight: 600;
+}
+
+.gnb-list li a:hover {
+  color: navy;
+  text-decoration: underline;
+}
+
+.back-img {
+  
+  border: 3px solid red;
+  background-image: url(./images/스누피배경.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.back-text {
+  /*  border: 3px solid blue;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 500px;
+  color: #fff;
+}
+
+.back-text p {
+  width: 90%;
+}
+
+.back-text p,
+button {
+  margin-top: 25px;
+}
+
+.back-text button {
+  padding: 12px;
+  border-radius: 10px;
+  border-style: none;
+  font-weight: 600;
+}
+
+.slidemenu{
+  border: 3px solid lightgray;
+  border-radius: 10px;
+
+  position: fixed;
+  top: 150px;
+  right: 50px;
+  color: gray;
+  background-color: #fff;
+}
+
+.slidemenu div{
+  padding: 8px 40px;
+}
+
+.card-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.card-list div {
+ /* border: 3px solid gold;*/
+  border-radius: 10px;
+  background-color: lightcyan;
+  text-align: center;
+  width: 300px;
+  margin: 0 20px;
+  padding: 50px 15px;
+
+}
+
+.card-list div p{
+  margin-top: 20px;
+}
+
+.fix-box{
+  border: 3px solid green;
+
+  position: relative;
+
+  background-color: lightcyan;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 30px;
+  height: 600px;
+}
+
+.fix-box div{
+  
+  border: 3px solid blue;
+
+
+  margin: 10px;
+  width: 400px;
+  height: 400px;
+  background-color: #fff;
+}
+
+
+.fix-img1{
+  background-position: top;
+  background-repeat: no-repeat;
+
+  background-image: url(./images/스누피2.png);
+}
+
+.fix-img2{
+  background-position: right;
+  background-repeat: no-repeat;
+
+  background-image: url(./images/pngegg.png);
+}
+
+.global-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  
+  background-color: skyblue;
+  color: #fff;
+}
+
+.footer-link{
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+
+}

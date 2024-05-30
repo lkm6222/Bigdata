@@ -20,6 +20,7 @@ li {
 }
 
 button {
+  cursor: pointer;
   border: none;
   background-color: transparent;
 }
@@ -198,6 +199,34 @@ body {
 
 .quick-menu ul li a {
   color: #333;
+}
+
+.popup{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  flex-direction: column;
+  width: 400px;
+  background: #fff;
+  border: 2px solid black;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.popup-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pop-close-btn{
+  font-size: 30px;
+}
+
+.popup img{
+  width: 100%;
 }
 
 @media screen and (max-width : 1200px){

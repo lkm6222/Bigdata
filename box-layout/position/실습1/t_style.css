@@ -202,11 +202,12 @@ body {
 }
 
 .popup{
+  display: none;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  
+
   flex-direction: column;
   width: 400px;
   background: #fff;
@@ -215,13 +216,17 @@ body {
   padding: 20px;
 }
 
+.popup.is-active{
+  display: block;
+}
+
 .popup-header{
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.pop-close-btn{
+.popup-close-btn{
   font-size: 30px;
 }
 

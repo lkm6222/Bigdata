@@ -1,0 +1,64 @@
+.gowun-batang-regular {
+  font-family: "Gowun Batang", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #fff
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+body {
+  font-family: "Gowun Batang", serif;
+}
+
+.global-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 40px;
+
+  background-color: skyblue;
+}
+
+.logo img {
+  width: 60px;
+}
+
+.gnb-list{
+  display: flex; 
+}
+
+.gnb-list li{
+  margin-right: 20px;
+}
+
+/*li list 마지막칸 마진 없에기 */
+.gnb-list li:last-child{
+  margin-right: 0;
+}
+
+.gnb-list li a{
+  font-weight: 700;
+  transition: color 300ms;
+}
+
+.gnb-list li a:hover{
+  color: dodgerblue;
+}

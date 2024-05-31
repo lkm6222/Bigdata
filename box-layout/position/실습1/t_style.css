@@ -25,6 +25,11 @@ button {
   background-color: transparent;
 }
 
+/* 모바일 버전에서만 보일 요소(D,T 모드에서는 보이지 않게 none */
+.sm-only{
+  display: none;
+}
+
 body {
   font-family: "Gowun Batang", serif;
 }
@@ -175,7 +180,6 @@ body {
   position: fixed;
   bottom: 50px;
   right: 50px;
-
 }
 
 .top-btn a i{
@@ -233,6 +237,32 @@ body {
 .popup img{
   width: 100%;
 }
+/*
+.sidebar{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100%;
+  padding: 20px;
+  background-color: #fff;
+}
+*/
+.sidebar ul li{
+  text-align: center;
+}
+
+.sidebar ul li a{
+  display: inline-block;
+  padding: 8px 0;
+  font-size: 18px;
+  color: #000;
+}
+
+.sidebar-close-btn{
+  text-align: right;
+  font-size: 22px;
+}
 
 @media screen and (max-width : 1200px){
   .card-list{
@@ -269,6 +299,19 @@ body {
 }
 
 @media screen and (max-width : 768px) {
+  .sm-hidden{
+    display: none;
+  }
+  .sm-only{
+    display: block;
+  }
+
+  .sidebar-open-btn{
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  
   .card-list{
     width: 90%;
   }

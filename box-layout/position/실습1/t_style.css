@@ -237,17 +237,27 @@ body {
 .popup img{
   width: 100%;
 }
-/*
+
 .sidebar{
   position: fixed;
   top: 0;
   right: 0;
+
+  /* 왼쪽으로 이동할 때는 마이너스값을 사용한다 */
+  transform: translateX(300px);
+  transition: 500ms;
+
   width: 300px;
   height: 100%;
   padding: 20px;
   background-color: #fff;
 }
-*/
+
+.sidebar.is-active{
+  transform: translateX(0);
+  transition: 500ms;
+}
+
 .sidebar ul li{
   text-align: center;
 }
@@ -262,6 +272,7 @@ body {
 .sidebar-close-btn{
   text-align: right;
   font-size: 22px;
+  cursor: pointer;
 }
 
 @media screen and (max-width : 1200px){

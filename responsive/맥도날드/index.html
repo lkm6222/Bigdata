@@ -1,141 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>맥도날드</title>
+  <title>맥도날드 반응형</title>
   <link rel="stylesheet" href="./style.css">
-  <!-- font awsome 적용하기 -->
-  <script src="https://kit.fontawesome.com/bce3064c8e.js" crossorigin="anonymous"></script>
-  <!-- google fonts 적용 -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&display=swap" rel="stylesheet">
-  <!-- favicon 적용 -->
+  <!-- Favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/522c2b7a73.js" crossorigin="anonymous"></script>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
 </head>
-
 <body>
-  <header class="global-header">
-    <h1 class="logo">
-      <a href="">
-        <img src="./assets/images/logo.png" alt="md logo">
-      </a>
-    </h1>
-    <ul class="gnb-list">
-      <li><a href="">menu1</a></li>
-      <li><a href="">menu2</a></li>
-      <li><a href="">menu3</a></li>
-      <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
-    </ul>
-  </header>
-
-  <main>
-    <ul class="fix-menu">
-      <li><a href="">Menu</a></li>
-      <li><a href="">Store</a></li>
-      <li><a href="">What's new</a></li>
-      <li><a href="">Story</a></li>
-    </ul>
-    <div class="back-img"></div>
-    <div class="menu-img-box">
-      <div>
+  <div class="wrapper">
+    <header>
+      <h1 class="logo">
         <a href="">
-          <img src="./assets/images/burger1.png" alt="">
-          <h2>맥스파이시 상하이</h2>
+          <img src="./assets/images/logo.png" alt="">
         </a>
+      </h1>
+
+      <div class="sidebar-open-btn sm-only">
+        <i class="fa-solid fa-bars"></i>
       </div>
-      <div>
-        <a href=""><img src="./assets/images/burger2.png" alt="">
-          <h2>맥크리스피</h2>
-        </a>
-      </div>
-      <div>
-        <a href=""><img src="./assets/images/burger3.png" alt="">
-          <h2>쿼터파운더</h2>
-        </a>
-      </div>
-      <div>
-        <a href=""><img src="./assets/images/burger4.png" alt="">
-          <h2>더블쿼터파운더</h2>
-        </a>
-      </div>
-      <div>
-        <a href=""><img src="./assets/images/burger5.png" alt="">
-          <h2>맥크리스피</h2>
-        </a>
-      </div>
-      <div>
-        <a href=""><img src="./assets/images/burger6.png" alt="">
-          <h2>맥치킨모짜</h2>
-        </a>
-      </div>
-      <div>
-        <a href=""><img src="./assets/images/burger7.png" alt="">
-          <h2>더블불고기</h2>
-        </a>
-      </div>
-      <div>
-        <a href=""><img src="./assets/images/burger8.png" alt="">
-          <h2>1955</h2>
-        </a>
-      </div>
-      <div>
-        <a href=""><img src="./assets/images/burger9.png" alt="">
-          <h2>베이컨토마토디럭스</h2>
-        </a>
-      </div>
-      <div class="fix-box">
-        <ul class="fix-bar">
-          <li>
-            <a href=""><img src="./assets/images/side1.png" alt="">품질이야기</img></a>
+
+      <ul class="gnb-list sm-hidden">
+        <li><a href="">menu1</a></li>
+        <li><a href="">menu2</a></li>
+        <li><a href="">menu3</a></li>
+        <li class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></li>
+      </ul>
+    </header>
+
+    <div class="lnb">
+      <ul class="lnb-list">
+        <li><a href="">Menu</a></li>
+        <li><a href="">Store</a></li>
+        <li><a href="">What's New</a></li>
+        <li><a href="">Story</a></li>
+      </ul>
+    </div>
+
+    <main>
+      <section class="back-img"></section>
+
+      <section class="menu">
+        <ul class="menu-list">
+          <li class="menu-item">
+            <a href="">
+              <img src="./assets/images/burger1.png" alt="burger1">
+              <h2>Lorem ipsum dolor sit.</h2>
+              <p>Lorem, ipsum dolor.</p>
+            </a>
           </li>
-          <li>
-            <a href=""><img src="./assets/images/side2.jpeg" alt="">McDeliver</img></a>
+         
+          <li class="menu-item">
+            <a href="">
+              <img src="./assets/images/burger2.png" alt="burger2">
+              <h2>Lorem ipsum dolor sit.</h2>
+              <p>Lorem, ipsum dolor.</p>
+            </a>
           </li>
-          <li>
-            <a href=""><img src="./assets/images/top.jpeg" alt="">TOP</img></a>
+
+          <li class="menu-item">
+            <a href="">
+              <img src="./assets/images/burger3.png" alt="burger3">
+              <h2>Lorem ipsum dolor sit.</h2>
+              <p>Lorem, ipsum dolor.</p>
+            </a>
+          </li>
+
+          <li class="menu-item">
+            <a href="">
+              <img src="./assets/images/burger4.png" alt="burger4">
+              <h2>Lorem ipsum dolor sit.</h2>
+              <p>Lorem, ipsum dolor.</p>
+            </a>
+          </li>
+
+          <li class="menu-item">
+            <a href="">
+              <img src="./assets/images/burger5.png" alt="burger5">
+              <h2>Lorem ipsum dolor sit.</h2>
+              <p>Lorem, ipsum dolor.</p>
+            </a>
+          </li>
+
+          <li class="menu-item">
+            <a href="">
+              <img src="./assets/images/burger6.png" alt="burger6">
+              <h2>Lorem ipsum dolor sit.</h2>
+              <p>Lorem, ipsum dolor.</p>
+            </a>
+          </li>
+
+          <li class="menu-item">
+            <a href="">
+              <img src="./assets/images/burger7.png" alt="burger7">
+              <h2>Lorem ipsum dolor sit.</h2>
+              <p>Lorem, ipsum dolor.</p>
+            </a>
+          </li>
+
+          <li class="menu-item">
+            <a href="">
+              <img src="./assets/images/burger8.png" alt="burger8">
+              <h2>Lorem ipsum dolor sit.</h2>
+              <p>Lorem, ipsum dolor.</p>
+            </a>
+          </li>
+
+          <li class="menu-item">
+            <a href="">
+              <img src="./assets/images/burger9.png" alt="burger9">
+              <h2>Lorem ipsum dolor sit.</h2>
+              <p>Lorem, ipsum dolor.</p>
+            </a>
           </li>
         </ul>
+      </section>
+
+      <section class="mac-story">
+        <ul class="mac-story-list">
+          <li>
+            <a href="">
+              <img src="./assets/images/side1.png" alt="story">
+              <p>dsgjdsgj</p>
+            </a>
+          </li>
+
+          <li>
+            <a href="">
+              <img src="./assets/images/side2.jpeg" alt="story">
+              <p>dsgjdsgj</p>
+            </a>
+          </li>
+
+          <li>
+            <a href="">
+              <img src="./assets/images/top.jpeg" alt="story">
+              <p>dsgjdsgj</p>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <ul class="footer-1">
+        <li class="txt-yellow"><a href="">개인정보 처리방침</a></li>
+        <li><a href="">위치정보 이용약관</a></li>
+        <li><a href="">사이트맵</a></li>
+        <li><a href="">임차문의</a></li>
+      </ul>
+
+      <ul class="footer-info">
+        <li>한국맥도날드(유)</li>
+        <li>대표이사: 이예진</li>
+        <li>사업자등록번호: 101-81-26409</li>
+        <li>전화주문: 1600-5252</li>
+      </ul>
+
+      <ul class="footer-link">
+        <li>
+          <a href="">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </li>
+
+        <li>
+          <a href="">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+        </li>
+
+        <li>
+          <a href="">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+        </li>
+
+        <li>
+          <a href="">
+            <i class="fa-regular fa-handshake"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <div class="search">
+      <div>
+        <div class="search-box">
+          <input type="text" placeholder="메뉴 또는 매장 정보를 검색하실 수 있습니다.">
+          <button type="button">검색하기</button>
+        </div>
+        <div class="search-close-btn">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
       </div>
     </div>
-  </main>
 
-  <footer class="global-footer">
-    <ul class="footer-list-left">
-      <li><a href="">개인정보 처리방침</a></li>
-      <li><a href="">위치정보 이용약관</a></li>
-      <li><a href="">사이트맵</a></li>
-      <li><a href="">임차문의</a></li>
-    </ul>
-    <div class="footer-list-right">
-      <p>한국맥도날드(유)</p>
-      <p>대표이사:이예진</p>
-      <p>사업자등록번호: 101-81-26409</p>
-      <p>전화주문: 1600-5252</p>
-    </div>
-    <ul class="sns-link">
-      <li>
-        <a href=""><i class="fa-brands fa-instagram"></i></a>
-      </li>
-      <li>
-        <a href=""><i class="fa-brands fa-facebook"></i></a>
-      </li>
-      <li>
-        <a href=""><i class="fa-brands fa-youtube"></i></a>
-      </li>
-      <li>
-        <a href=""><i class="fa-regular fa-handshake"></i></a>
-      </li>
-    </ul>
-  </footer>
+    <aside class="sidebar sm-only">
+      <ul>
+        <li><a href="">menu1</a></li>
+        <li><a href="">menu2</a></li>
+        <li><a href="">menu3</a></li>
+      </ul>
+    </aside>
+
+    <div class="overlay"></div>
+  </div>
   <script src="./script.js"></script>
 </body>
-
 </html>
